@@ -133,6 +133,17 @@ _(in order of first appearance)_
     ![](../../images/cc26x2r1_dongle.jpg)
     </details>
 
+  * <details>
+    <summary>JetHome JetStick Z2/ZB6UX CC2652P1</summary>
+
+    Powerful CC2652P1 factory-made Zigbee USB dongle with external antenna.
+    * [Documentation](https://docs.jethome.ru/en/zigbee/sticks/jetstick_z2.html)
+    * [Flash instructions](https://docs.jethome.ru/en/zigbee/howto/cc_2538_bsl.html#zigbee-howto-2538-bsl)
+    * [Firmware](https://docs.jethome.ru/en/zigbee/software/ti_cc2652p.html#zigbee-software-ti-cc2652p)
+    * Buy: [JetStick Z2](https://jethome.ru/z2/)
+
+    ![](../../images/jetstick_z2.png)
+    </details>
 
 * Hybrid (network + USB)
   * <details>
@@ -346,6 +357,21 @@ _(in order of first appearance)_
   
     ![](../../images/LP-CC1352P7.jpg)
     </details>
+* Hub
+  * <details>
+    <summary>JetHome JetHub D1+</summary>
+
+    Controller with ZigBee module onboard with external antenna.
+
+    JetHub D1+ is DIN-rail home automation controller with Ubuntu/Debian OS and a lot of peripherals.
+
+    Based on TI CC2652P1.
+
+    * [Documentation](https://docs.jethome.ru/en/controllers/linux/din_rail/d1p.html)
+    * [Buy](https://jethome.ru/d1p/)
+
+    ![](../../images/jethub_d1_full.png)
+    </details>
 
 ### Other
   * <details>
@@ -364,6 +390,10 @@ _(in order of first appearance)_
     * For RaspBee2 it is 38400
     * For ConBee3 it is 115200
     
+    <br />
+
+    **Note:** The support for Conbee 3 is not yet in the main branch (as of 2023/11/23). If you have a Conbee 3 stick, please use the dev-branch.
+
     <br />
     
     **Warning:** Conbee 2 firmware versions newer than 0x26580700 will result in an unstable network with devices dropping randomly, see [Issue 9554](https://github.com/Koenkk/zigbee2mqtt/issues/9554)
@@ -591,9 +621,22 @@ Initial development started on experimental (beta stage) support for Silicon Lab
       adapter: ezsp
     ```
     * [Product page](https://smlight.tech/product/slzb-07/)
-    * [Buy](https://smartlight.me/smart-home-devices/zigbee-devices/slzb-07-zigbee-usb-adapter-en)
+    * [Buy Store](https://smartlight.me/smart-home-devices/zigbee-devices/slzb-07-zigbee-usb-adapter-en), [Buy Aliexpress](https://www.aliexpress.com/item/1005006273914143.html)  
   
     ![](https://smartlight.me/files/pics/2023/SLZB-07-Zigbee2MQTT.png)
+    </details>
+
+  * <details>
+    <summary>JetHome JetStick Z4</summary>
+
+    Powerful EFR32MG21 based factory-made Zigbee USB dongle with external antenna.
+
+    * [Documentation](https://docs.jethome.ru/en/zigbee/sticks/jetstick_z4.html)
+    * [Flash instructions](https://docs.jethome.ru/en/zigbee/howto/silabs_flashing.html#zigbee-howto-silabs-flashing)
+    * [Firmware](https://docs.jethome.ru/en/zigbee/software/silabs_efr32.html#zigbee-software-silabs-efr32-mg21)
+    * [Buy JetStick Z4](https://jethome.ru/z4/)
+
+    ![](../../images/jetstick_z4.png)
     </details>
 
 * Raspberry Pi
@@ -670,9 +713,9 @@ Initial development started on experimental (beta stage) support for Silicon Lab
     ![](../../images/z-wave_me_mpcie_adaptor.jpg)
     </details>
 
-* Wiren Board
+* Hub
   * <details>
-    <summary> Wiren Board 7 </summary>
+    <summary>Wiren Board 7</summary>
 
     Wiren Board 7 with Zigbee module with external antenna.
 
@@ -683,6 +726,21 @@ Initial development started on experimental (beta stage) support for Silicon Lab
     * [Buy](https://z-wave.me/products/wirenboard-7/)
 
     ![](../../images/wiren-board-7.jpg)
+    </details>
+
+  * <details>
+    <summary> JetHome JetHub D1+</summary>
+
+    Controller with ZigBee module onboard with external antenna.
+
+    JetHub D1+ is DIN-rail home automation controller with Ubuntu/Debian OS and a lot of peripherals.
+
+    Based on Silabs EFR32MG21.
+
+    * [Documentation](https://docs.jethome.ru/en/controllers/linux/din_rail/d1p.html)
+    * [Buy](https://jethome.ru/d1p/)
+
+    ![](../../images/jethub_d1p_efr.png)
     </details>
 
 ### Based on ZiGate

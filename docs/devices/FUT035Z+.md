@@ -1,7 +1,7 @@
 ---
-title: "Lidl HG06492B control via MQTT"
-description: "Integrate your Lidl HG06492B via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
-addedAt: 2020-12-30T11:31:00Z
+title: "MiBoxer FUT035Z control via MQTT"
+description: "Integrate your MiBoxer FUT035Z via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
+addedAt: 2021-09-01T18:11:17Z
 pageClass: device-page
 ---
 
@@ -11,40 +11,34 @@ pageClass: device-page
 <!-- Do not use h1 or h2 heading within "## Notes"-Section. -->
 <!-- !!!! -->
 
-# Lidl HG06492B
+# MiBoxer FUT035Z
 
 |     |     |
 |-----|-----|
-| Model | HG06492B  |
-| Vendor  | [Lidl](/supported-devices/#v=Lidl)  |
-| Description | Livarno Lux E14 candle CCT |
+| Model | FUT035Z  |
+| Vendor  | [MiBoxer](/supported-devices/#v=MiBoxer)  |
+| Description | Dual white LED controller |
 | Exposes | light (state, brightness, color_temp), effect, do_not_disturb, linkquality |
-| Picture | ![Lidl HG06492B](https://www.zigbee2mqtt.io/images/devices/HG06492B.jpg) |
+| Picture | ![MiBoxer FUT035Z](https://www.zigbee2mqtt.io/images/devices/FUT035Z.jpg) |
 
 
 <!-- Notes BEGIN: You can edit here. Add "## Notes" headline if not already present. -->
 ## Notes
 
-
 ### Pairing
-Factory reset the light bulb.
-After resetting the bulb will automatically connect.
+The device will enter pairing mode when turned on, if it has not been paired previously. Pairing mode can be forced by pressing the SET button, or power cycling the controller, 3 times in succession.
 
-To activate the pairing mode, turn the bulb off and on 3 times with one second in between, starting with the bulb on.  
-So:
-* on,
-* off (one second of waiting),
-* on (one second of waiting),
-* off (one second of waiting),
-* on (one second of waiting),
-* off (one second of waiting),
-* on (the bulb should now flash regularly)
+The lights connected to the controller will fade in and out when the controlled is in pairing mode.
 
-One option that might work is to use (very) short “on’s” and a little bit longer “off’s”, where you kill the light as soon as the bulb shows signs of turning on.
-Start with bulb on, then off, and then 3 “on’s”, wait in the 3rd ON state.
-Alternatively, start with the bulb on, and then repeat the off on sequence as above, but wait 2-3 seconds in each state (on and off).
+### PUSH Dimming
+PUSH Dimming
+Short press PUSH switch:
+Turn ON/OFF light
+Stepless dimming brightness.
+Long press PUSH switch:
+Long press and release your finger, then repeat long pressing
+to increase or decrease brightness.
 
-When in pairing state, the bulb will flash.
 <!-- Notes END: Do not edit below this line -->
 
 
